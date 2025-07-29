@@ -2,6 +2,8 @@
 
 This project explores an HR dataset to analyze employee demographics, trends, and termination patterns using SQL for data transformation and Power BI for interactive visualization.
 
+---
+
 ## 📊 Project Overview
 
 The aim of this project is to gain insights into workforce characteristics such as:
@@ -87,9 +89,17 @@ SET age = TIMESTAMPDIFF(YEAR, birthdate, CURDATE());
 
 This project demonstrates how SQL and Power BI can be used together to uncover meaningful HR trends and support data-driven workforce decisions.
 
+---
+
 ## 🔗 Links
 
-- 📂 [Power BI Report](https://umsedumy-my.sharepoint.com/:u:/g/personal/muhammad_hanafi_bi21_iluv_ums_edu_my/EdVMTx1MoVVJsR7fRrAnxsYBfise1X3ia2cEYmGwuGLg0Q?e=5oUXri)
-- 🧠 [SQL Cleaning](https://github.com/zypieskie/HR-Analytics-Using-SQL-Power-BI/blob/main/HR%20Data%20Cleaning.sql)
-- 🧠 [SQL Question](https://github.com/zypieskie/HR-Analytics-Using-SQL-Power-BI/blob/main/HR%20Data%20Questions.sql)
-- 📊 [Dataset on Kaggle](https://www.kaggle.com/datasets/priykushwaha/hr-dataset)
+🔸 **Power BI Report** :
+- 📂 [View Report](https://umsedumy-my.sharepoint.com/:u:/g/personal/muhammad_hanafi_bi21_iluv_ums_edu_my/EdVMTx1MoVVJsR7fRrAnxsYBfise1X3ia2cEYmGwuGLg0Q?e=5oUXri)  
+
+🧠 **SQL Scripts** :
+- 🧹 [Cleaning Script](https://github.com/zypieskie/HR-Analytics-Using-SQL-Power-BI/blob/main/HR%20Data%20Cleaning.sql) 
+
+- ❓ [Analysis Questions](https://github.com/zypieskie/HR-Analytics-Using-SQL-Power-BI/blob/main/HR%20Data%20Questions.sql)
+
+📊 **Dataset** :
+- 📦 [HR Dataset on Kaggle](https://www.kaggle.com/datasets/priykushwaha/hr-dataset)

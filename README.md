@@ -11,6 +11,8 @@ The aim of this project is to gain insights into workforce characteristics such 
 - Average employee tenure
 - Office vs. remote workforce trends
 
+---
+
 ## 🗂 Dataset
 
 - **Source:** [HR Dataset on Kaggle](https://www.kaggle.com/datasets/priykushwaha/hr-dataset)
@@ -18,6 +20,8 @@ The aim of this project is to gain insights into workforce characteristics such 
   - `id`, `name`, `birthdate`, `hire_date`, `termdate`
   - `gender`, `race`, `location`, `state`
   - `department`, `position`, `employee_status`
+ 
+---
 
 ## 🛠 Tools & Technologies
 
@@ -25,6 +29,8 @@ The aim of this project is to gain insights into workforce characteristics such 
 - **Power BI** – for data visualization and interactive dashboard creation
 - **Excel/CSV** – dataset formatting
 - **Kaggle** – dataset source
+
+---
 
 ## 🧹 Data Cleaning in SQL
 
@@ -43,6 +49,8 @@ UPDATE hr
 SET age = TIMESTAMPDIFF(YEAR, birthdate, CURDATE());
 ```
 
+---
+
 ## 📈 Power BI Dashboard
 
 ### Key Insights Visualized:
@@ -56,33 +64,21 @@ SET age = TIMESTAMPDIFF(YEAR, birthdate, CURDATE());
 - **Employee Count Change (2000–2021)**
 
 ### Sample Dashboards:
-- ![Dashboard Page 1](./screenshots/Screenshot_1.png)
-- ![Dashboard Page 2](./screenshots/Screenshot_2.png)
+- <img width="1306" height="734" alt="page 1" src="https://github.com/user-attachments/assets/a2aee84e-8ccf-48bc-966a-e4c05d5dfc4f" />
+- <img width="1308" height="734" alt="page 2" src="https://github.com/user-attachments/assets/31a687a1-d964-4a9b-b15a-0a6b0539483b" />
 
-> *Note: Ensure these screenshot files (`Screenshot_1.png`, `Screenshot_2.png`) are placed in a `/screenshots` folder within your GitHub repo.*
-
-## 📂 Folder Structure (Suggested)
-
-```
-HR-Analytics-SQL-PowerBI/
-├── README.md
-├── sql/
-│   └── hr_analysis_queries.sql
-├── powerbi/
-│   └── HR_Analytics_Report.pbix
-├── data/
-│   └── HRDataset.csv
-└── screenshots/
-    ├── Screenshot_1.png
-    └── Screenshot_2.png
-```
+---
 
 ## 📌 Key Findings
 
 - Most employees are aged between 25–54 years
 - Majority of workforce is male (8.9K) and based at headquarters (13K)
-- Highest employee concentration in Ohio, Pennsylvania, and Illinois
-- Departments like Auditing and Legal have relatively higher termination rates
+- Ohio leads as the top state for employee concentration, followed by Pennsylvania and Illinois
+- Departments such as Auditing (20%), Legal (15%), and Training (13%) have the highest termination rates
+- Average employment duration for terminated employees is around 8 years
+- Employee retention rates have improved over the years, reaching 95.66% in 2020
+
+---
 
 ## ✅ Conclusion
 

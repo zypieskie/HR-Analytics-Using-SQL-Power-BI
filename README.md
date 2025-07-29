@@ -64,8 +64,11 @@ SET age = TIMESTAMPDIFF(YEAR, birthdate, CURDATE());
 - **Employee Count Change (2000–2021)**
 
 ### Sample Dashboards:
-- <img width="1306" height="734" alt="page 1" src="https://github.com/user-attachments/assets/a2aee84e-8ccf-48bc-966a-e4c05d5dfc4f" />
-- <img width="1308" height="734" alt="page 2" src="https://github.com/user-attachments/assets/31a687a1-d964-4a9b-b15a-0a6b0539483b" />
+1. **Overview Dashboard** – Shows gender, age group, and location distribution
+<img width="1306" height="734" alt="page 1" src="https://github.com/user-attachments/assets/228eeb8c-2080-4ab8-b3f5-9e6be67b30b6" />
+
+2. **Terminations & Trends** – Termination rates, employee growth over time, and tenure by department
+<img width="1308" height="734" alt="page 2" src="https://github.com/user-attachments/assets/a9618024-296e-4f18-9235-0c1567ac5960" />
 
 ---
 

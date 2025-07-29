@@ -90,5 +90,6 @@ This project demonstrates how SQL and Power BI can be used together to uncover m
 ## 🔗 Links
 
 - 📂 [Power BI Report](https://umsedumy-my.sharepoint.com/:u:/g/personal/muhammad_hanafi_bi21_iluv_ums_edu_my/EdVMTx1MoVVJsR7fRrAnxsYBfise1X3ia2cEYmGwuGLg0Q?e=5oUXri)
-- 🧠 [SQL Script](Add SQL GitHub link if hosted)
+- 🧠 [SQL Cleaning](https://github.com/zypieskie/HR-Analytics-Using-SQL-Power-BI/blob/main/HR%20Data%20Cleaning.sql)
+- 🧠 [SQL Question](https://github.com/zypieskie/HR-Analytics-Using-SQL-Power-BI/blob/main/HR%20Data%20Questions.sql)
 - 📊 [Dataset on Kaggle](https://www.kaggle.com/datasets/priykushwaha/hr-dataset)
